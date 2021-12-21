@@ -3,6 +3,7 @@
 html, body{
   height: 100%;
   font-weight: 800;
+
 }
 
 body{
@@ -16,7 +17,10 @@ svg {
     width: 960px;
     height: 300px;
     margin: 0 auto;
-    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
 }
 
 .text-copy {
